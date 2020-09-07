@@ -2,7 +2,7 @@
 
 Vue, Quasar, ssr
 
-[Geely-club.ru](http://geely-club.ru).
+[Geely-club.ru](http://geely-club.ru)
 
 ## Install the dependencies
 ```bash
