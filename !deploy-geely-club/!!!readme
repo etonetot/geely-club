@@ -1,0 +1,10 @@
+
+0. Make icons
+icongenie generate -m ssr -i C:\projects\haval-quasar\src\statics\_geely\logo-icon.png 
+
+1. Run quasar build -m ssr on local machine. 
+2. Copy config.yml, dist/ssr to client dir.
+3. npm i
+4. Setup nginx: nginx.config
+5. pm2 start config.yml  
+	или  pm2 start  (тогда берется из ecosystem.config.js)

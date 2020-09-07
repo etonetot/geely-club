@@ -1,0 +1,12 @@
+apps:
+- name: geely-club
+  script: npm
+  cwd: .
+  max_memory_restart: "250M" 	# in case nuxt renderer eats al
+  args: "start"	# command to skip build and start renderer
+  env:
+    PORT: 3001		
+    NODE_ENV: production	
+  env_production:
+    PORT: 3001		
+    NODE_ENV: production	
