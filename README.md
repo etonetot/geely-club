@@ -1,6 +1,8 @@
-# Quasar App (qtest)
+# Geely-club.ru
 
-A Quasar Framework app
+Vue, Quasar, ssr
+
+[Geely-club.ru](http://geely-club.ru).
 
 ## Install the dependencies
 ```bash
